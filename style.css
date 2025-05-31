@@ -1,91 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playface+AU+SA:wght@100..400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
 
-:root{
+:root {
 --cor-principal: #65a679;
---cor-segundaria: #0b0b0b;
+--cor-secundaria: #0b0b0b;
 --text-color: #22553e;
 --background-color: #e3dbcf;
---font-body: "Playwrite AU SA", cursive ;
+--font-body: "Playwrite AU SA", cursive ; 
 
-}
- 
-
-.relogio{
-  border: 1xp, solid;
-  height: 100px;
-  display: flex;
-  align-items: center; 
-}
-display{
-background-color: #0b0b0b;
-width:200;
-height: 150;
-text-align: center;
-line-height:150; 
-border-radius: 8px;
-color:bisque;
-font-size: 5rem;
-font-family:"Playwrite AU SA", cursive ;
-}
-
-
-
-*{ 
- margin: 0;
-padding: 0;
+* {
 box-sizing: border-box;
-font-family: var(--font-body);
+margin: 0;
+padding: 0;
 }
-  body{
+
+body {
 background-color: var(--background-color);
 color: var(--cor-principal);
 line-height: 2;
-  }
-   h1{
-    margin-top: 30px;
-   }
-    h2{
-margin-top: 25xp;
-    }
+font-family: var(--font-body);
+}
 
- h3{
-margin-top: 29xp;
-    }
-   p{
- margin-top: 23xp;
-   }
+h1 {
+margin-top: 30px;
+}
 
-   li{
-    margin-top: 23xp;
-   }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+h2 {
+margin-top: 25px;
+}
+
+h3 {
+margin-top: 29px;
+}
+
+p {
+margin-top: 23px;
+}
+
+li {
+margin-top: 23px;
+}
+
+.relogio {
+border: 1px solid;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.display {
+background-color: var(--cor-secundaria);
+width: 200px;
+height: 150px;
+text-align: center;
+line-height: 150px;
+border-radius: 8px;
+color: bisque;
+font-size: 5rem;
+font-family: "Raleway", sans-serif;
 }
 
 header, nav, main, footer {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
+border: 1px solid #ddd;
+padding: 10px;
+margin-bottom: 10px;
 }
 
 .conteudo {
-  border-radius: 5px;
+border-radius: 5px;
 }
 
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+height: 0;
+overflow: hidden;
+max-width: 100%;
 }
 
 .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
