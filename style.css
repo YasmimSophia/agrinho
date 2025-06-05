@@ -5,7 +5,8 @@
 --cor-secundaria: #0b0b0b;
 --text-color: #22553e;
 --background-color: #e3dbcf;
---font-body: "Playwrite AU SA", cursive ; 
+--font-body: "Playwrite AU SA", cursive
+}
 
 * {
 box-sizing: border-box;
